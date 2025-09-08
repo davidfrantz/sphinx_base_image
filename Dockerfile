@@ -45,7 +45,7 @@ pip install sphinx pydata-sphinx-theme sphinxcontrib-bibtex && \
 deactivate && \
 #
 # Clear installation data
-RUN apt-get clean
+apt-get clean
 
 # Create a dedicated 'docker' group and user
 #RUN groupadd docker && \
